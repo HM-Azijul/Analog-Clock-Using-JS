@@ -5,7 +5,8 @@
 }
 
 :root {
-    --dark-color: #091921
+    --dark-color: #091921;
+    --light-color: #d1dae3;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: var(--dark-color);
+    background: var(--dark-color);
 }
 
 .clock {
@@ -97,7 +98,7 @@ body {
     position: absolute;
     width: 2px;
     height: 150px;
-    background: #fff;
+    background: #008eff;
     z-index: 4;
     border-radius: 6px 6px 0 0;
 }
