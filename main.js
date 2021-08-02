@@ -15,4 +15,8 @@ setInterval(() => {
     hr.style.transform = `rotateZ(${hh+(mm/12)}deg)`;
     mn.style.transform = `rotateZ(${mm}deg)`;
     sc.style.transform = `rotateZ(${ss}deg)`;
-})
+});
+
+toggleClass.addEventListener("click", () => {
+    body.classList.toggle("light");
+});
