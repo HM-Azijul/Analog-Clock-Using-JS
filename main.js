@@ -1,7 +1,10 @@
+// all selectors
 const deg = 6;
-const hr = document.querySelector("#hr")
-const mn = document.querySelector("#mn")
-const sc = document.querySelector("#sc")
+const hr = document.getElementById("hr");
+const mn = document.getElementById("mn");
+const sc = document.getElementById("sc");
+const body = document.querySelector("body");
+const toggleClass = document.querySelector(".toggle_class");
 
 setInterval(() => {
     let day = new Date();
